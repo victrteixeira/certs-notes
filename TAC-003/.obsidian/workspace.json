@@ -146,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3c5bf5f50d60083",
+  "active": "0cf876afe1988b5b",
   "lastOpenFiles": [
-    "IaC Concepts.md"
+    "2024-02-28.md",
+    "images",
+    "IaC Concepts.md",
+    "images/Pasted image 20240228020951.png"
   ]
 }

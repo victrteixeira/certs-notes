@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2808871102ab2989",
+        "id": "68df0ef5c219117e",
         "type": "tabs",
         "children": [
           {
-            "id": "435de208aa299fff",
+            "id": "860bf8f4b242a1c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Monitoring & Audit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aeb988fafded9508",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IAM Advanced.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IAM Advanced.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IAM Advanced.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "IAM Advanced.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,11 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aeb988fafded9508",
+  "active": "860bf8f4b242a1c9",
   "lastOpenFiles": [
-    "Untitled.md",
-    "IAM Advanced.md",
     "Monitoring & Audit.md",
+    "IAM Advanced.md",
+    "Untitled.md",
     "Machine Learning.md",
     "images/Pasted image 20240227191546.png",
     "images/Pasted image 20240226203428.png",
