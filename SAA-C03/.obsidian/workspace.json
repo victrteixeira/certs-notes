@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "ca874f05080ffe62",
+    "type": "split",
+    "children": [
+      {
+        "id": "2808871102ab2989",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "435de208aa299fff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Monitoring & Audit.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aeb988fafded9508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IAM Advanced.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5ef205d151b8211f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a3431dd3f32fd77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f2f489e461482db",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5ccc0f1ee900c26f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac34d94ad3f4c73e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 335.5
+  },
+  "right": {
+    "id": "09a1101ebd3bd3b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "3988ffff36f23572",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0d43800831285a6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "IAM Advanced.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "64216632502a0582",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "IAM Advanced.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "08ec459ac967fa23",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5c093bc05e3d53a3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "IAM Advanced.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "aeb988fafded9508",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "IAM Advanced.md",
+    "Monitoring & Audit.md",
+    "Machine Learning.md",
+    "images/Pasted image 20240227191546.png",
+    "images/Pasted image 20240226203428.png",
+    "images",
+    "Data & Analytics.md",
+    "Serverless Overview.md",
+    "Screenshot 2024-02-18 163929.png",
+    "Screenshot 2024-02-21 214225.png",
+    "Containers on AWS - ECS, Fargate, ECR & EKS.md",
+    "README.md",
+    "Databases.md",
+    "Pasted image 20240221214226.png",
+    "Pasted image 20240221211552.png"
+  ]
+}
