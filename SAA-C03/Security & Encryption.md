@@ -90,3 +90,117 @@
 ## Parameter Policies
 - Permite adicionar TTL a um parâmetro (expiration date) para forçar atualizações ou deletar dados sensíveis como senhas.
 - É possível atribuir diversas policies ao mesmo tempo
+
+# Secrets Manager
+- Um novo serviço para armazenamento de *secrets*
+- Capacidade de forçar a rotação de *secrets* a cada X dias
+- É possível automatizar a geração da rotação de *secrets* utilizando Lambda
+- Integrado com RDS - MySQL, PostgreSQL, Aurora
+- *Secrets* são encriptados utilizando KMS
+
+## Multi-Region Secrets
+- Secrets Manager pode replicar *Secrets* em múltiplas regions
+- Secrets Manager mantém *read replicas* em sincronia com uma *Primary Key*
+- É possível promover uma *read replica Secret* para uma *Standalone Secret*
+- *Use Cases*
+	- Multi-region apps;
+	- Disaster Recover Strategies;
+	- Multi-Region DB;
+
+# AWS Certificate Manager - ACM
+- Provisiona, gerencia, e implantação de certificados TLS
+- Providencia in-flight encryption para websites - HTTPS
+- Suporta certificados TLS públicos e privados
+	- Certificados públicos são livres de cobranças
+- Renovação automática do certificado
+- Integrações com - ELB, CloudFront, APIs on ApiGateway, e mais.
+- ACM não pode ser utilizado com EC2s - não podem ser extraídos
+
+## Requesting Public Certificates
+1. List domain names to be included in the certificate
+   - Fully Qualified Domain Name (FQDN): corp.example.com
+   - Wildcard Domain: \*.example.com
+2. Select Validation Method: DNS or Email Validation
+   - DNS Validation é preferível para propósitos de automação
+   - Email validation enviará e-mails para endereços de contato no banco de dados do WHOIS
+   - DNS Validation providenciará um CNAME record para o DNS Config - e.g. Route53 ou CloudFlare
+   - Leva algumas horas para ser validado
+3. The Public Certificate will be enrolled for automatic renewal
+   - ACM automaticamente renova ACM-generated certificates 60 dias antes deles expirarem.
+
+## Importing Public Certificates
+- AWS dá a opção de gerar certificados fora do ACM e importá-los para ele
+- Sem renovação automática. É necessário importar um novo certificado antes deles expirarem
+- ACM envia eventos diários de expiração, começando 45 dias antes da expiração
+	- The # de dias pode ser configurado
+	- Eventos irão aparecer no EventBridge
+- AWS Config tem uma *managed rule* chamada *acm-certificate-expiration-check* para checar por certificados expirados
+	- O número de dias também pode ser configurado
+
+# Web Application Firewall - WAF
+- Protege aplicações web de *common web exploits* (Layer 7)
+	- Layer 7 is HTTP
+- Pode ser implementado em ELBs, API Gateways, CloudFront, AppSync GraphQL API, Cognito User Pool
+1. Define Web ACL (Web Access Control List) Rules
+   - IP Set: até 10.000 IP addresses - utilize *multiple rules* para mais IPs, se necessário
+   - HTTP headers, HTTP body, ou URI strings protegem contra ataques comuns: SQL Injection ou XSS
+   - É possível adicionar *size constraints*, e *geo-match* para bloquear países.
+   - Rate-based rules para contar o número de ocorrências de um evento, serve para proteção contra DDoS
+- Web ACL são regionais exceto pelo CloudFront
+- Um *rule group* é um *set* de regras reutilizável que você pode adicionar a uma web ACL
+
+# Shield
+## AWS Shield Standard
+- Serviço grátis e ativado para todo cliente da AWS
+- Providencia proteção contra ataques do tipo SYN/UDP Floods, Reflection Attacks e outros layer 3, layer 4 ataques.
+## AWS Shield Advanced
+- Serviço de mitigação DDoS opcional
+	- $3.000 per month per organization
+- Realiza a proteção contra ataques mais sofisticados em EC2s, ELBs, CloudFront, Global Accelerator e Route53
+- Acesso 24/7 ao time de resposta a ataques DDoS da AWS (DRP)
+- Protegido contra altas cobranças durante picos de uso devido a DDoS attacks
+- Shield Advanced providencia atenuação automática de DDoS na camada de aplicação. Cria, avalia, e implementa AWS WAF rules automaticamente para mitigar ataques na camada 7.
+
+# Firewall Manager
+- Gerencia *rules* em todas as contas de uma Organization
+1. Security Policy: common set of security rules
+   - WAF Rules - ALB, API Gateway, CloudFront
+   - AWS Shield Advanced - ALB, CLB, NLB, Elastic IP, CloudFront
+   - SG for EC2, ALB, and ENI resources in VPC
+   - AWS Network Firewall (VPC Level)
+   - Route53 Resolver DNS Firewall
+   - Policies são criadas no nível de uma região
+- Regras são aplicadas a novos recursos enquanto eles são criados, em todas as existentes e futuras contas em uma Organization
+
+# DDoS Best Practice
+## REWATCH THE VIDEO
+
+# GuardDuty
+- *Intelligent Threat Discovery* para proteção de contas AWS
+- Utiliza algoritmos de Machine Learning, detecção de anomalias, 3rd party data
+- Input Data
+	- CloudTrail Event Logs - unusual API calls, unauthorized deployments
+	- VPC Flow Logs - unusual internal traffic, unusual IP address
+	- DNS Logs - compromised EC2 instances sending encoded data within DNS queries
+	- Optional Features - EKS Audit Logs, RDS and Aurora, EBS, Lambda, S3 Data Events
+- EventBridge rules podem ser configuradas para notificar em caso do GuardDuty seja alertado
+- Protege contra *CryptoCurrency Attacks* - GuardDuty têm uma *finding* específica para isso
+
+# Inspector
+- Avaliações automáticas de segurança
+- Inspector realiza as avaliações para serviços específicos: EC2 Instances, Container Images push to ECR, e Lambda Functions
+- EC2 Instances
+	- Tirando proveito do AWS System Manager Agent
+	- Analise contra acesso não intencionado à rede
+	- Analise do OS rodando em busca de vulnerabilidades conhecidas
+- Container Images push to ECR
+	- Avalia as *container images* quando elas são enviadas
+- Lambda Functions
+	- Identifica vulnerabilidades de software no código da função ou nos pacotes de dependência
+	- Avalia as funções quando elas são implementadas
+- Tem relatórios e integrações com o AWS Security Hub
+- Envia *findings* para o Event Bridge
+
+# Macie
+- Serviço de data security e data privacy que utiliza machine learning e pattern matching para descobrir e proteger dados sensíveis na AWS
+- Macie ajuda a identificar e alertar sobre dados sensíveis, como PII (Personally Identifiable Information) em um bucket S3 por exemplo
