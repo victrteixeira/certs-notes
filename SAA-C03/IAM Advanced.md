@@ -109,4 +109,4 @@
 	- Como o nome afirma, previne ações, como restringir regiões para todas as contas
 - *Detective GuardRail*: utiliza AWS Config
 	- Utiliza para verificação de conformidades o AWS Config e verifica não-conformidades em todas as contas, por exemplo, identificar recursos sem tag.
-- ![[Pasted image 20240228224534.png]]
+- ![[controltower.png]]

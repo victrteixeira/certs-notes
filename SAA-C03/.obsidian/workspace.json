@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "68df0ef5c219117e",
+        "id": "d0f48d2135088ca5",
         "type": "tabs",
         "children": [
           {
-            "id": "860bf8f4b242a1c9",
+            "id": "89c2c4aa0623755c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security & Encryption.md",
+                "file": "Networking.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 270.5026054382324
   },
   "right": {
     "id": "09a1101ebd3bd3b9",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security & Encryption.md",
+                "file": "Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security & Encryption.md",
+                "file": "Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security & Encryption.md"
+                "file": "Networking.md"
               }
             }
           }
@@ -146,27 +146,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "860bf8f4b242a1c9",
+  "active": "89c2c4aa0623755c",
   "lastOpenFiles": [
+    "images/egw-routing.png",
+    "Networking.md",
     "Monitoring & Audit.md",
+    "images/hrandmr.png",
+    "images/Pasted image 20240226203428.png",
+    "images/Pasted image 20240228223343.png",
+    "images/tg-ecmp.png",
+    "images/Pasted image 20240228211814.png",
+    "images/Pasted image 20240227191546.png",
+    "images/dxdiagram.png",
+    "images/controltower.png",
+    "Serverless Overview.md",
+    "Containers on AWS - ECS, Fargate, ECR & EKS.md",
     "Security & Encryption.md",
     "IAM Advanced.md",
     "Untitled",
-    "Pasted image 20240228224534.png",
-    "images/Pasted image 20240228223343.png",
-    "images/Pasted image 20240228211814.png",
     "Machine Learning.md",
-    "images/Pasted image 20240227191546.png",
-    "images/Pasted image 20240226203428.png",
     "images",
     "Data & Analytics.md",
-    "Serverless Overview.md",
     "Screenshot 2024-02-18 163929.png",
-    "Screenshot 2024-02-21 214225.png",
-    "Containers on AWS - ECS, Fargate, ECR & EKS.md",
     "README.md",
-    "Databases.md",
-    "Pasted image 20240221214226.png",
-    "Pasted image 20240221211552.png"
+    "Databases.md"
   ]
 }
