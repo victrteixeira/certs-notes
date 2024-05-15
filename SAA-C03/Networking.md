@@ -83,7 +83,7 @@
 # Site-To-Site VPN
 ## Resume
 1. Virtual Private Gateway - VGW
-	- VPN concentrada no lado da AWS para a VPN connection
+	- VPN concentrador do lado da AWS para a VPN connection
 	- VGW é criado e anexado a uma VPC que você deseja criar a conexão site-to-site VPN
 	- Possibilidade de customizar o ASN (*Autonomous System Number*)
 2. Customer Gateway - CGW

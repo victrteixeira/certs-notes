@@ -301,3 +301,7 @@
 - As IAM Policies aplicadas as credenciais são definidas no próprio Cognito
 - Pode-se customizar as credenciais baseado no user_id para um controle mais granulado
 - Há IAM Roles padrão para usuários e convidados autenticados.
+
+
+EXAM TIPS:
+- To make it easier to remember the different between User Pools and Identity Pools, think of Users Pools as being like IAM Users or Active Directory and an Identity Pools as being like an IAM Role.

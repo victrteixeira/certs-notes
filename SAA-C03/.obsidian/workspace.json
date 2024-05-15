@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d0f48d2135088ca5",
+        "id": "3a8657104f8799c8",
         "type": "tabs",
         "children": [
           {
-            "id": "f0a17f69ed3f6634",
+            "id": "226b6d6773679144",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DR & Migrations.md",
+                "file": "Security & Encryption.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5026054382324
+    "width": 258.5026054382324
   },
   "right": {
     "id": "09a1101ebd3bd3b9",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DR & Migrations.md",
+                "file": "Security & Encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DR & Migrations.md",
+                "file": "Security & Encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DR & Migrations.md"
+                "file": "Security & Encryption.md"
               }
             }
           }
@@ -146,31 +146,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0a17f69ed3f6634",
+  "active": "226b6d6773679144",
   "lastOpenFiles": [
-    "images/mgn-diagram.png",
-    "images/dr-strategies.png",
-    "DR & Migrations.md",
-    "Networking.md",
-    "Untitled",
-    "images/egw-routing.png",
-    "Monitoring & Audit.md",
-    "images/hrandmr.png",
-    "images/Pasted image 20240226203428.png",
-    "images/Pasted image 20240228223343.png",
-    "images/tg-ecmp.png",
-    "images/Pasted image 20240228211814.png",
-    "images/Pasted image 20240227191546.png",
-    "images/dxdiagram.png",
-    "images/controltower.png",
-    "Serverless Overview.md",
     "Containers on AWS - ECS, Fargate, ECR & EKS.md",
-    "Security & Encryption.md",
-    "IAM Advanced.md",
-    "Machine Learning.md",
-    "images",
     "Data & Analytics.md",
+    "Databases.md",
+    "DR & Migrations.md",
+    "Elastic Compute Cloud and Auto Scaling Groups.md",
+    "Elastic File System - EFS.md",
+    "High Performance Computing (HPC).md",
+    "IAM Advanced.md",
+    "Kinesis Family.md",
+    "Machine Learning.md",
+    "Monitoring & Audit.md",
+    "Networking.md",
     "README.md",
-    "Databases.md"
+    "Relational Database Service.md",
+    "Route53.md",
+    "Security & Encryption.md",
+    "Serverless Overview.md",
+    "Simple Service Storage.md",
+    "Storage Extras.md",
+    "Study it again.md",
+    "Untitled",
+    "images/Pasted image 20240226203428.png",
+    "images/hrandmr.png",
+    "images/glue.png",
+    "images/egw-routing.png",
+    "images/dxdiagram.png",
+    "images/dr-strategies.png",
+    "images/controltower.png",
+    "images/mgn-diagram.png",
+    "images/tg-ecmp.png",
+    "images/Pasted image 20240228223343.png",
+    "Untitled.canvas",
+    "images"
   ]
 }

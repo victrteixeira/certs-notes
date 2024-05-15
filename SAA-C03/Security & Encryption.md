@@ -49,8 +49,6 @@
    - Define quem pode administrar a KMS Key
    - Útil para *cross-account access* da KMS Key
 
-
-
 ## Multi-Region Keys
 - Há uma *primary key* em uma região que será sincronizada em outras regiões, em caso de Multi-Region Key for habilitado.
 - Todas as KMS Keys são idênticas em todas as diferentes regiões que podem ser utilizadas indistintamente.
@@ -148,6 +146,7 @@
    - Rate-based rules para contar o número de ocorrências de um evento, serve para proteção contra DDoS
 - Web ACL são regionais exceto pelo CloudFront
 - Um *rule group* é um *set* de regras reutilizável que você pode adicionar a uma web ACL
+- **EXAM TIP: Layer 7 focus, the WAF only works for HTTP/HTTPS applications -> NLB is layer 4 for example routing through TCP protocols**
 
 # Shield
 ## AWS Shield Standard
@@ -162,7 +161,7 @@
 - Shield Advanced providencia atenuação automática de DDoS na camada de aplicação. Cria, avalia, e implementa AWS WAF rules automaticamente para mitigar ataques na camada 7.
 
 # Firewall Manager
-- Gerencia *rules* em todas as contas de uma Organization
+- Gerencia *WAF rules* em todas as contas de uma Organization
 1. Security Policy: common set of security rules
    - WAF Rules - ALB, API Gateway, CloudFront
    - AWS Shield Advanced - ALB, CLB, NLB, Elastic IP, CloudFront

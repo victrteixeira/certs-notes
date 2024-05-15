@@ -142,6 +142,7 @@ s3://athena-examples/flight/parquet/year=1991/month=1/day=1
 - *Glue Streaming ETL*
 	- Invés de ler os dados em *batch mode*, ele lê e transforma os dados em *streaming mode*.
 	- Compatível com Kineses Data Streaming, Kafka, MSK
+	![[glue.png]]
 
 # Lake Formation
 ### Overview
