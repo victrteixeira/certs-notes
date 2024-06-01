@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "43774409baf184da",
+    "type": "split",
+    "children": [
+      {
+        "id": "daa7d36a349da24e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56d096204245d140",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud Service Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84c3ceb62ea0032d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core Architectural Components of Azure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4ec4cf3ce786a61e",
+    "type": "split",
+    "children": [
+      {
+        "id": "36587635e005f014",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89b6171bf27b5e42",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5b7277d2582fdb4a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9be41be982947699",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 281.5004348754883
+  },
+  "right": {
+    "id": "f6eaf1152218207d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ad2b3b880cf363f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "192fc4adc53fdb47",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Core Architectural Components of Azure.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0e1d1e4e8fa17dea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Core Architectural Components of Azure.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1b35705cda154a0f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ec78044ecf53e01f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Core Architectural Components of Azure.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "84c3ceb62ea0032d",
+  "lastOpenFiles": [
+    "Cloud Service Types.md",
+    "Benefits of Cloud Computing.md",
+    "Core Architectural Components of Azure.md",
+    "Serverless.md",
+    "Untitled 1.md"
+  ]
+}
