@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56d096204245d140",
+            "id": "9031015a66bfd6cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud Service Types.md",
+                "file": "4. Azure Compute and Networking Services.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "84c3ceb62ea0032d",
+            "id": "5501edc682a39964",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Architectural Components of Azure.md",
+                "file": "5. Azure Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Architectural Components of Azure.md",
+                "file": "5. Azure Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Architectural Components of Azure.md",
+                "file": "5. Azure Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Architectural Components of Azure.md"
+                "file": "5. Azure Storage.md"
               }
             }
           }
@@ -159,11 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84c3ceb62ea0032d",
+  "active": "5501edc682a39964",
   "lastOpenFiles": [
-    "Cloud Service Types.md",
-    "Benefits of Cloud Computing.md",
-    "Core Architectural Components of Azure.md",
+    "4. Azure Compute and Networking Services.md",
+    "5. Azure Storage.md",
+    "3. Core Architectural Components of Azure.md",
+    "1. Benefits of Cloud Computing.md",
+    "Attachments/Pasted image 20240601134221.png",
+    "Attachments/Pasted image 20240601131420.png",
+    "Pasted image 20240601130816.png",
+    "Attachments",
+    "2. Cloud Service Types.md",
     "Serverless.md",
     "Untitled 1.md"
   ]
