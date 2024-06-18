@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4dbe2cff4e4ec91b",
+        "id": "36b9ad56a401d231",
         "type": "tabs",
         "children": [
           {
-            "id": "807f66ecf142e168",
+            "id": "4d23544b449db66f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10. Azure Leftovers.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f6eaf1152218207d",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10. Azure Leftovers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10. Azure Leftovers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "10. Azure Leftovers.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,23 +140,23 @@
   },
   "active": "89b6171bf27b5e42",
   "lastOpenFiles": [
-    "3. Core Architectural Components of Azure.md",
-    "Attachments/Pasted image 20240601131420.png",
     "10. Azure Leftovers.md",
+    "9. Monitoring Tools.md",
+    "3. Core Architectural Components of Azure.md",
+    "2. Cloud Service Types.md",
+    "Attachments/Pasted image 20240601131420.png",
     "Attachments/Pasted image 20240609191129.png",
     "Attachments/Pasted image 20240601134221.png",
     "4. Azure Compute and Networking Services.md",
     "NLP.md",
     "().md",
     "5. Azure Storage.md",
-    "9. Monitoring Tools.md",
     "7. Azure Governance and Compliance.md",
     "6. Cost Management in Azure.md",
     "8. Tools for Managing and Deploying Azure Resources.md",
     "1. Benefits of Cloud Computing.md",
     "Pasted image 20240601130816.png",
     "Attachments",
-    "2. Cloud Service Types.md",
     "Serverless.md",
     "Untitled 1.md"
   ]
