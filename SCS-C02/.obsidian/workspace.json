@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "ca874f05080ffe62",
+    "id": "8773fa7bfdb38936",
     "type": "split",
     "children": [
       {
-        "id": "3a8657104f8799c8",
+        "id": "3270dbe92c97db42",
         "type": "tabs",
         "children": [
           {
-            "id": "226b6d6773679144",
+            "id": "fd996083d46d8ef3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DR & Migrations.md",
+                "file": "Threat Detection and Incident Response.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5ef205d151b8211f",
+    "id": "e74feaeb5f5b67d5",
     "type": "split",
     "children": [
       {
-        "id": "0a3431dd3f32fd77",
+        "id": "bf3a8fac9c498e8e",
         "type": "tabs",
         "children": [
           {
-            "id": "9f2f489e461482db",
+            "id": "9ad43695b51f5339",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "5ccc0f1ee900c26f",
+            "id": "fd6e459c15a181ae",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "ac34d94ad3f4c73e",
+            "id": "b5c6b346bbda022a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5026054382324
+    "width": 261.5086555480957
   },
   "right": {
-    "id": "09a1101ebd3bd3b9",
+    "id": "72b19b1272a0cfc6",
     "type": "split",
     "children": [
       {
-        "id": "3988ffff36f23572",
+        "id": "e1165726e0fe3eee",
         "type": "tabs",
         "children": [
           {
-            "id": "b0d43800831285a6",
+            "id": "9c328a0f216aab82",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DR & Migrations.md",
+                "file": "Threat Detection and Incident Response.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "64216632502a0582",
+            "id": "eb5f90c481c9eec8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DR & Migrations.md",
+                "file": "Threat Detection and Incident Response.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "08ec459ac967fa23",
+            "id": "277ecfa51618c7c6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "5c093bc05e3d53a3",
+            "id": "2786789f8a13ef1e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "DR & Migrations.md"
+                "file": "Threat Detection and Incident Response.md"
               }
             }
           }
@@ -146,40 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "226b6d6773679144",
+  "active": "fd996083d46d8ef3",
   "lastOpenFiles": [
-    "Security & Encryption.md",
-    "Serverless Overview.md",
-    "Simple Service Storage.md",
-    "Study it again.md",
-    "Containers on AWS - ECS, Fargate, ECR & EKS.md",
-    "Data & Analytics.md",
-    "Databases.md",
-    "DR & Migrations.md",
-    "Elastic Compute Cloud and Auto Scaling Groups.md",
-    "Elastic File System - EFS.md",
-    "High Performance Computing (HPC).md",
-    "IAM Advanced.md",
-    "Kinesis Family.md",
-    "Machine Learning.md",
-    "Monitoring & Audit.md",
-    "Networking.md",
-    "README.md",
-    "Relational Database Service.md",
-    "Route53.md",
-    "Storage Extras.md",
-    "Untitled",
-    "images/Pasted image 20240226203428.png",
-    "images/hrandmr.png",
-    "images/glue.png",
-    "images/egw-routing.png",
-    "images/dxdiagram.png",
-    "images/dr-strategies.png",
-    "images/controltower.png",
-    "images/mgn-diagram.png",
-    "images/tg-ecmp.png",
-    "images/Pasted image 20240228223343.png",
-    "Untitled.canvas",
-    "images"
+    "Attachments/Pasted image 20240901114816.png",
+    "Attachments/Screenshot 2024-09-01 114230.png",
+    "Attachments/Pasted image 20240901113833.png",
+    "Threat Detection and Incident Response.md",
+    "Attachments"
   ]
 }
