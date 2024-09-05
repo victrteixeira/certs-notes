@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.50152587890625,
-    "collapsed": true
+    "width": 229.50152587890625
   },
   "right": {
     "id": "72b19b1272a0cfc6",
@@ -149,10 +148,10 @@
   },
   "active": "01a32afbeaa5a317",
   "lastOpenFiles": [
+    "Threat Detection and Incident Response.md",
+    "Security Logging and Monitoring.md",
     "Attachments/Pasted image 20240904222900.png",
     "Attachments/Pasted image 20240904221547.png",
-    "Security Logging and Monitoring.md",
-    "Threat Detection and Incident Response.md",
     "Reachability.md",
     "Attachments/screenshot-www_udemy_com-2024_09_04-13_20_09.png",
     "Attachments/screenshot-www_udemy_com-2024_09_04-12_53_27.png",
@@ -162,7 +161,6 @@
     "Attachments/screenshot-www_udemy_com-2024_09_04-12_40_44.png",
     "Attachments/screenshot-www_udemy_com-2024_09_04-12_33_18.png",
     "Attachments/screenshot-www_udemy_com-2024_09_04-12_25_58.png",
-    "Attachments/screenshot-www_udemy_com-2024_09_04-12_18_32.png",
     "Attachments"
   ]
 }
