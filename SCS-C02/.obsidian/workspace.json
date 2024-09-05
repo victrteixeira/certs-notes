@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3270dbe92c97db42",
+        "id": "b9f49c3d4eb0e486",
         "type": "tabs",
         "children": [
           {
-            "id": "fd996083d46d8ef3",
+            "id": "01a32afbeaa5a317",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Threat Detection and Incident Response.md",
+                "file": "Security Logging and Monitoring.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5086555480957
+    "width": 229.50152587890625,
+    "collapsed": true
   },
   "right": {
     "id": "72b19b1272a0cfc6",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Threat Detection and Incident Response.md",
+                "file": "Security Logging and Monitoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Threat Detection and Incident Response.md",
+                "file": "Security Logging and Monitoring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Threat Detection and Incident Response.md"
+                "file": "Security Logging and Monitoring.md"
               }
             }
           }
@@ -146,8 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd996083d46d8ef3",
+  "active": "01a32afbeaa5a317",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20240904222900.png",
+    "Attachments/Pasted image 20240904221547.png",
+    "Security Logging and Monitoring.md",
+    "Threat Detection and Incident Response.md",
+    "Reachability.md",
     "Attachments/screenshot-www_udemy_com-2024_09_04-13_20_09.png",
     "Attachments/screenshot-www_udemy_com-2024_09_04-12_53_27.png",
     "Attachments/screenshot-www_udemy_com-2024_09_04-12_50_00.png",
@@ -157,9 +163,6 @@
     "Attachments/screenshot-www_udemy_com-2024_09_04-12_33_18.png",
     "Attachments/screenshot-www_udemy_com-2024_09_04-12_25_58.png",
     "Attachments/screenshot-www_udemy_com-2024_09_04-12_18_32.png",
-    "Attachments/screenshot-www_udemy_com-2024_09_04-11_48_28.png",
-    "Attachments/screenshot-www_udemy_com-2024_09_04-11_44_55.png",
-    "Threat Detection and Incident Response.md",
     "Attachments"
   ]
 }

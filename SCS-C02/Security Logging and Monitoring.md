@@ -1,0 +1,99 @@
+# Amazon Inspector
+- Automated Security Assessments
+- **For EC2 Instances**
+	- Leveraging the **AWS System Manager (SSM) agent**
+	- Analyze against **unintended network accessibility**
+	- Analyze the **running OS** against known vulnerabilities
+- **For Container Images push to ECR**
+	- Assessment of Container images as they are pushed
+- **For Lambda Functions**
+	- Identifies software vulnerabilities in function code and package dependencies
+	- Assessment of functions as the are deployed
+- Reporting & integration with AWS Security Hub
+- Send findings to Amazon Event Bridge
+- Inspector is **only for EC2 instances, Container Images, and Lambda functions**
+	- Continuous scanning of the infrastructure, only when needed
+	- Package vulnerabilities (EC2, ECR & Lambda) - database of CVE
+	- Network Reachability (EC2)
+	- A risk score is associated with all vulnerabilities for prioritization
+# Logging for Security and Compliance
+- To help compliance requirements, AWS provides many service-specific security and audit logs
+- Service Logs include
+	- ==CloudTrail trails==: trace all API calls
+	- ==Config Rules==: for config and compliance over time
+	- ==CloudWatch Logs==: for full data retention
+	- ==VPC Flow Logs==: IP traffic within your VPC
+	- ==CloudFront Logs==: web distribution  access logs
+	- ==WAF Logs==: full logging of all requests analyzed by the service
+- **Logs can be analyzed using AWS Athena if they're stored in S3**
+- **You should encrypt logs in S3, control access using IAM & Bucket Policies, MFA**
+- **Move logs to Glacier for cost savings**
+# Systems Manager
+- Helps you manage your EC2 and On-Premises systems at scale
+- Get operational insights about the state of your infrastructure
+- Easily detect problems
+- **Patching automation for enhanced compliance**
+- Works for both Windows and Linux OS
+- Integrated with CloudWatch metrics / dashboards
+- Integrated with AWS Config
+- Free Service
+## Features
+- **Resource Groups**
+- *Operations Management*
+	- Explorer
+	- OpsCenter
+	- CloudWatch Dashboard
+	- PHD
+	- Incident Manager
+- *Shared Resources*
+	- **Documents**
+- *Change Management*
+	- Change Manager
+	- **Automation**
+	- Change Calendar
+	- **Maintenance Windows**
+- *Application Management*
+	- Application Manager
+	- AppConfig
+	- **Parameter Store**
+- *Node Management*
+	- Fleet Manager
+	- Compliance
+	- **Inventory**
+	- Hybrid Activation
+	- **Session Manager**
+	- **Run Command**
+	- **State Manager**
+	- **Patch Manager**
+	- Distributer
+## Tags & SSM Resource Groups
+- You can add text key-value pairs called Tags to many AWS resources
+- Commonly used in EC2
+- Free naming, common tags are Name, Environment, Team
+- They're used for
+	- *Resource Grouping*
+	- *Automation*
+	- *Cost allocation*
+- Create, view or manage logical group of resources thanks to **tags**
+- Allows creation of logical groups of resources such as
+	- *Applications*
+	- *Different layers of an application stack*
+	- *Production versus development environments*
+- Regional service
+- Works with EC2, S3, DynamoDB, Lambda, etc.
+## Documents
+- Documents can be in JSON or YAML
+- You define parameters
+- You define actions
+- Many documents already exist in AWS
+![[Pasted image 20240904221547.png]]
+### Run Command
+- Execute a document (= script) or just run a command
+- Run command across multiple instances (using resource groups)
+- Rate Control / Error Control
+- Integrated with IAM & CloudTrail
+- No need for SSH
+- Command Output can be shown in the Console, sent to S3 bucket or CloudWatch Logs
+- Send notifications to SNS about command statues (In progress, Success, Failed)
+- Can be invoked using EventBridge
+![[Pasted image 20240904222900.png|400]]
